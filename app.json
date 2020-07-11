@@ -2,11 +2,13 @@
   "expo": {
     "name": "G2i",
     "slug": "g2i-trivia-game-app",
+    "privacy": "public",
+    "sdkVersion": "38.0.0",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./src/assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./src/assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,8 +21,6 @@
     "ios": {
       "supportsTablet": true
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+    "description": "g2i-trivia-game-app"
   }
 }

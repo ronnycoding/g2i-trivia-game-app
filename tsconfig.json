@@ -1,0 +1,8 @@
+{
+  "extends": "./node_modules/@blockmatic/tsconfig/tsconfig.reactnative.json",
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "rootDirs": ["./src"]
+  },
+  "include": ["./src"]
+}
