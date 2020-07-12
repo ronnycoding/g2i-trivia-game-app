@@ -1,4 +1,5 @@
 import React from 'react'
+import { View } from 'react-native'
 import { createStackNavigator } from '@react-navigation/stack'
 
 import Home from 'screens/Home'
@@ -8,7 +9,6 @@ import Results from 'screens/Results'
 import { useTranslation } from 'react-i18next'
 
 const Stack = createStackNavigator()
-
 
 const LoadedNavigator = () => {
   const { t } = useTranslation('pages')
@@ -26,6 +26,8 @@ const LoadedNavigator = () => {
         component={Quiz}
         options={{
           title: t('quiz'),
+          // @ts-ignore
+          headerLeft: null,
         }}
       />
       <Stack.Screen
@@ -33,6 +35,8 @@ const LoadedNavigator = () => {
         component={Results}
         options={{
           title: t('results'),
+          // @ts-ignore
+          headerLeft: null,
         }}
       />
     </Stack.Navigator>

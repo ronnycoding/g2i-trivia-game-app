@@ -23,6 +23,8 @@ module.exports = function babelConfig(api) {
             screens: './src/screens',
             theme: './src/theme',
             translations: './src/translations',
+            providers: './src/providers',
+            config: './src/config',
           },
         },
       ],

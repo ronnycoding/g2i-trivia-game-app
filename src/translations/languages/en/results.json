@@ -1,3 +1,4 @@
 {
-  "scoreMessage": "You score"
+  "scoreMessage": "You scored",
+  "resetMessage": "PLAY AGAIN?"
 }
